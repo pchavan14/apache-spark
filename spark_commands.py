@@ -1,6 +1,6 @@
 
 import pyspark
-from pyspark.sql import SparkSession
+from pyspark.sql import *
 spark = SparkSession.builder.master("local[1]").appName("Example").getOrCreate()
 '''
 master() - If you are running it on a cluster , you need to identify the name of the master 
