@@ -29,7 +29,7 @@ df.show()
 df = spark.read.option("header","True").csv("/Users/prachichavan/Downloads/zipcodes.csv")
 #by using format method we can parametrize the type of file ingested
 df2 = spark.read.option("header","True").option("inferSchema","True").format("csv").load("/Users/prachichavan/Downloads/zipcodes.csv")
-df3 = spark.read.option("header","True").option("inferSchema","True").format("csv").load("/Users/prachichavan/Downloads/zipcodes.csv")
+df3 = spark.read.options(header="True",inferSchema="True").format("csv").load("/Users/prachichavan/Downloads/zipcodes.csv")
 
 #You can also read multiple files in a folder using the csv method
 '''
@@ -41,10 +41,18 @@ df2.printSchema()
 '''
 We can also use schema option to get the defined schema instead
 '''
-schema = StructType().add("RecordNumber",IntegerType(),"True")
-df_with_schema = spark.read.format("csv").option("header", "true").schema(schema).load("src/main/resources/zipcodes.csv")
-df_with_schema.printSchema()
-df_with_schema.show()
+# schema = StructType().add("RecordNumber",IntegerType(),"True")
+# df_with_schema = spark.read.format("csv").option("header", "true").schema(schema).load("src/main/resources/zipcodes.csv")
+# df_with_schema.printSchema()
+# df_with_schema.show()
+
+#Write data from a dataframe to a csv file
+
+'''
+We can change the repartition factor accorind to our need 
+'''
+
+df3.repartition(1).write.options(header="True").csv("/Users/prachichavan/Documents/apache-spark/sample_zipcodes.csv")
 
 
 
