@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+54355,35146,STANDARD,PRIMARY,33.77,-86.47,0.05,-0.82,0.55,NA,US,"Springville, AL",NA-US-AL-SPRINGVILLE,false,4046,7845,172127599,

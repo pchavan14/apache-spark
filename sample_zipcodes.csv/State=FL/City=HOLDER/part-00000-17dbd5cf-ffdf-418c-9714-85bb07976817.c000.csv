@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+49346,34445,PO BOX,PRIMARY,28.96,-82.41,0.11,-0.86,0.48,NA,US,"Holder, FL",NA-US-FL-HOLDER,false,,,,

@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+49347,32564,STANDARD,PRIMARY,30.72,-86.67,0.04,-0.85,0.51,NA,US,"Holt, FL",NA-US-FL-HOLT,false,1207,2190,36395913,

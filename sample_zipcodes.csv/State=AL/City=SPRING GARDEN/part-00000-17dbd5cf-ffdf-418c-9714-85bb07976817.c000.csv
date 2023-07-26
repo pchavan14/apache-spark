@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+54354,36275,PO BOX,PRIMARY,33.97,-85.55,0.06,-0.82,0.55,NA,US,"Spring Garden, AL",NA-US-AL-SPRING GARDEN,false,,,,

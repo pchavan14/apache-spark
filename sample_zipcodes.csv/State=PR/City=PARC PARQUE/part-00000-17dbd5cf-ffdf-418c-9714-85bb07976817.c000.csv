@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+1,704,STANDARD,NOT ACCEPTABLE,17.96,-66.22,0.38,-0.87,0.3,NA,US,"Parc Parque, PR",NA-US-PR-PARC PARQUE,false,,,,

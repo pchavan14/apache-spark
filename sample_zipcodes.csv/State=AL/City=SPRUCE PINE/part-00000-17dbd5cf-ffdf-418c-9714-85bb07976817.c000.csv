@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+54356,35585,STANDARD,PRIMARY,34.37,-87.69,0.03,-0.82,0.56,NA,US,"Spruce Pine, AL",NA-US-AL-SPRUCE PINE,false,610,1209,18525517,

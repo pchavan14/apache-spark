@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+61393,76177,STANDARD,ACCEPTABLE,32.75,-97.33,-0.1,-0.83,0.54,NA,US,"Ft Worth, TX",NA-US-TX-FT WORTH,false,2126,4053,122396986,

@@ -1,0 +1,3 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+10,709,STANDARD,NOT ACCEPTABLE,18.14,-66.26,0.38,-0.86,0.31,NA,US,"Bda San Luis, PR",NA-US-PR-BDA SAN LUIS,false,,,,
+10,708,STANDARD,NOT ACCEPTABLE,18.14,-66.26,0.38,-0.86,0.31,NA,US,"Bda San Luis, PR",NA-US-PR-BDA SAN LUIS,false,,,,

@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+76511,27007,STANDARD,NOT ACCEPTABLE,36.4,-80.56,0.13,-0.79,0.59,NA,US,"Ash Hill, NC",NA-US-NC-ASH HILL,false,842,1666,28876493,

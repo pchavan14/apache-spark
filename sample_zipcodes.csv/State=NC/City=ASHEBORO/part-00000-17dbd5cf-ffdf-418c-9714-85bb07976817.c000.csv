@@ -1,0 +1,3 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+76512,27203,STANDARD,PRIMARY,35.71,-79.81,0.14,-0.79,0.58,NA,US,"Asheboro, NC",NA-US-NC-ASHEBORO,false,8355,15228,215474318,
+76513,27204,PO BOX,PRIMARY,35.71,-79.81,0.14,-0.79,0.58,NA,US,"Asheboro, NC",NA-US-NC-ASHEBORO,false,1035,1816,30322473,

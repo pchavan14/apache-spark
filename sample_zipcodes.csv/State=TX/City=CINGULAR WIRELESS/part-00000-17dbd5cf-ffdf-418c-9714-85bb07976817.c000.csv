@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+61391,76166,UNIQUE,NOT ACCEPTABLE,32.72,-97.31,-0.1,-0.83,0.54,NA,US,"Cingular Wireless, TX",NA-US-TX-CINGULAR WIRELESS,false,,,,

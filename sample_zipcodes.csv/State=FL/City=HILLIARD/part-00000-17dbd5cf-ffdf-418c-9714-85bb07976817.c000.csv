@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+49345,32046,STANDARD,PRIMARY,30.69,-81.92,0.12,-0.85,0.51,NA,US,"Hilliard, FL",NA-US-FL-HILLIARD,false,3922,7443,133112149,

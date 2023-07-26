@@ -1,0 +1,3 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+39827,85209,STANDARD,PRIMARY,33.37,-111.64,-0.3,-0.77,0.55,NA,US,"Mesa, AZ",NA-US-AZ-MESA,false,14962,26883,563792730,"no NWS data,"
+39828,85210,STANDARD,PRIMARY,33.38,-111.84,-0.31,-0.77,0.55,NA,US,"Mesa, AZ",NA-US-AZ-MESA,false,14374,25446,471000465,

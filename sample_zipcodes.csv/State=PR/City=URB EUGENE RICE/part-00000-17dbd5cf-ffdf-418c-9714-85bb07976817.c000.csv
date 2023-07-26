@@ -1,0 +1,2 @@
+RecordNumber,Zipcode,ZipCodeType,LocationType,Lat,Long,Xaxis,Yaxis,Zaxis,WorldRegion,Country,LocationText,Location,Decommisioned,TaxReturnsFiled,EstimatedPopulation,TotalWages,Notes
+4,704,STANDARD,NOT ACCEPTABLE,17.96,-66.22,0.38,-0.87,0.3,NA,US,"Urb Eugene Rice, PR",NA-US-PR-URB EUGENE RICE,false,,,,
