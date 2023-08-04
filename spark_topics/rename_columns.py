@@ -47,6 +47,37 @@ df_renamed.show()
 df_renamed_multiple = df.withColumnRenamed("dob","DataOfBirth").withColumnRenamed("salary","salary_amount")
 df_renamed_multiple.show()
 
+#3. Using PySpark StructType - To rename a nested column in DataFrame
+'''
+changing a column name on a nested columns we create a new schema and use a cast function
+'''
+
+from pyspark.sql.functions import col
+
+schema2 = StructType(
+[
+StructField("fname",StringType()),
+StructField("mname",StringType()),
+StructField("lname",StringType())
+]
+)
+
+df.select(col("name").cast(schema2),col("dob"),col("gender")).printSchema()
+
+#4 . Using Select to rename the nested columns by Alias function
+df.printSchema()
+
+df.select(col("name.firstname").alias("fname"),col("name.middlename").alias("mname"),col("name.lastname").alias("lname")).printSchema()
+df.printSchema()
+
+#5. Using toDF() - to change all columns in a PySpark Dataframe
+newColumns = ["newCol1","newCol2","newCol3","newCol4"]
+df.toDF(*newColumns).printSchema()
+
+
+
+
+
 
 
 
