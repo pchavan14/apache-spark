@@ -58,6 +58,12 @@ df2 = spark.createDataFrame(data=data2,schema=["id","name"])
 df2.show()
 #like feature of SQL can use used here
 df2.filter(col("name").like("%rose%")).show()
+#rlike feature is used to check the likeness by regex expression
+df2.filter(col("name").rlike("(?i)^*rose$")).show()
+
+#7. Filter on an array column - we can use array_contains() function to filter on an array column 
+from pyspark.sql.functions import array_contains
+df.filter(array_contains(col("languages"),"Java")).show()
 
 
 

@@ -20,11 +20,9 @@ df_spark.show()
 
 #To print a specific column from a pyspark dataframe use select and show
 df_spark.select("name").show()
+df_spark.select("name").show()
 
 
-
-#PySpark count of non null values for specfic column
-from pyspark.sql.functions import col
 
 
 
