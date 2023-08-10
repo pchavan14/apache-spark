@@ -33,3 +33,7 @@ df.select(collect_list(col("salary")).alias("collection")).show(truncate=False)
 
 #4. collect_set() - returns all values from input columns by eliminating duplicates
 df.select(collect_set(col("salary")).alias("collection")).show(truncate=False)
+
+#5. countDistinct() - to count the distinct values
+#6. count() - to count the values in the columns
+#7.first() and last() - they return the first and last non null elements in a column
