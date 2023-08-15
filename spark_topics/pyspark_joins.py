@@ -44,3 +44,5 @@ empDF.join(deptDF, empDF.emp_dept_id == deptDF.dept_id,"leftanti").show(truncate
 #5. When we need to join multiple dataframes we can either use SQL views or chain the dataframes
 
 df1.join(df2,df2.id1 == df1.id1,"inner").join(df3,df3.id1 == df1.id1,"inner") #chaining of joins
+
+#PySpark join multiple columns 
