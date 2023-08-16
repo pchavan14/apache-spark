@@ -1,1 +1,25 @@
-Steps 
+Below are the steps on how to run PySpark scripts on AWS EMR clusters
+
+Step 1 - EMR cluster creation
+1. Select EMR section , create an EMR cluster 
+2. Select spark application bundle
+3. Do remember to select terminate cluster after idle time
+4. Choose EC2 key pair option for further ssh use
+5. Select or create a new IAM role
+
+Step 2 - SSH into the cluster
+1. In the cluster click on the connect to the primary node using ssh
+2. You get the ssh of the master node
+3. ssh -i [key-pair] hadoop@[emr-master-public-dns-address] (use the public address of the master node)
+4. Please remember to add the ip address of the local machine into the security groups of the cluster we created
+5. Then we can add ssh the clsuter from local machine
+
+Step 3 - To run the PySpark code (CLI job execution)
+1. Add the pyspark code inside an S3 bucket
+2. Run the command spark-submit "path_of_the_codefile_inside_bucket"
+
+Step 4 - Monitor your jobs
+1. You can monitor the steps on the console by using pip and grep 
+2. you can also check the logs in the YARN timeline server , in the summary of the EMR cluster created
+3. The same can be checked in spark history server
+        
