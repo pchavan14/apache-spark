@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains multiple lines of text.
+Each line has several words.
+The purpose of this file is to demonstrate RDD processing in PySpark.
